@@ -13,7 +13,6 @@ body{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 header{
     position: sticky;
