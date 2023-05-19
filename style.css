@@ -19,7 +19,7 @@ header{
     z-index: 5;
     top: 0;
     left: 0;
-    padding: 15px 15px 20px 100px;
+    padding: 25px 20px 20px 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -29,10 +29,10 @@ header{
 header #logo{
     display: inline-block;
     left: 10px;
-    top: -5px;
+    top: -10px;
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     padding-bottom: 2px;
 }
 header ul{
@@ -63,9 +63,9 @@ header h1{
 }
 .photos{
     overflow-y: auto;
-    height: 380px;
+    height: 420px;
     justify-content: center;
-    width: 35%;
+    width: 45%;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -77,14 +77,14 @@ header h1{
     display: flex;
     width: 100%;
     justify-content: center;
-    top: 250px;
+    top: 260px;
 }
 .homevid{
     margin: 10px;
     object-fit: contain;
-    height: 370px;
+    height: 410px;
 }
 .photos div img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
