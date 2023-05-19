@@ -193,7 +193,7 @@ article button:hover{
     display: grid;
     width: 100%;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 90px 180px 100px 100px;
+    grid-template-rows: 90px 240px 100px 100px;
     background-color: #ffffff;
     padding: 30px;
     gap: 20px;
