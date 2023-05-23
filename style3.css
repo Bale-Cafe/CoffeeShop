@@ -189,20 +189,23 @@ footer div video{
     background-color: #bbb;
     color: black;
   }
-  
   .flip-card-back {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
     padding: 30px;
     transform: rotateY(180deg);
   }
   .flip-card-back a img{
     object-fit: cover;
     margin-top: 60px;
-    margin-left: 8px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
   }
   .flip-card-back a{
+    margin: 5px;
+    width: 70px;
     color: #502c11;
   }
   
