@@ -62,29 +62,28 @@ header h1{
     color: #502c11;
 }
 .photos{
+    margin-top: 10px;
     overflow-y: auto;
-    height: 420px;
+    height: 460px;
     justify-content: center;
     width: 45%;
     display: grid;
     grid-template-columns: auto auto;
-}
-.photos div{
-    margin: 8px;
+    gap: 8px;
 }
 .below{
     position: relative;
     display: flex;
     width: 100%;
     justify-content: center;
-    top: 260px;
+    top: 200px;
 }
 .homevid{
     margin: 10px;
     object-fit: contain;
-    height: 410px;
+    height: 460px;
 }
 .photos div img{
     width: 250px;
-    height: 250px;
+    height: 240px;
 }
